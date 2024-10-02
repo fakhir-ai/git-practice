@@ -12,7 +12,7 @@ input_list_lower = [item.lower() for item in input_list]
 input_set = set(input_list_lower)
 result_set = [[word,input_list_lower.count(word)] for word in input_set]
 print(result_set)'''
-# Find the total count for each order status in a list 
+# Find the total count for each order status in a tuple 
 data = '''order_id, order_amount, order_status
 101, 1200, Completed
 102, 1100, Pending
